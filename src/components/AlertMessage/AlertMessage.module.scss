@@ -1,0 +1,12 @@
+.alert {
+	position: absolute;
+	top: 22px;
+	left: 50%;
+	padding: 0.6em 1.2em;
+	color: #eee;
+	background-color: #358739;
+	border-radius: 15px;
+    text-wrap: nowrap;
+    user-select: none;
+	transform: translateX(-50%);
+}

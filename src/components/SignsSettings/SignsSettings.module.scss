@@ -1,0 +1,29 @@
+.signs {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1em;
+	width: 100%;
+}
+
+.span {
+	margin-bottom: 0.4em;
+	font-size: 1.8rem;
+}
+
+.control {
+	display: flex;
+	gap: 1em;
+}
+
+@media (min-width: 600px) {
+	.signs {
+		flex-direction: row;
+	}
+
+	.span {
+		margin-bottom: 0;
+		font-size: 2rem;
+	}
+}

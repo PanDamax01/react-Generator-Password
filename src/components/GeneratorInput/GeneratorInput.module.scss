@@ -1,0 +1,63 @@
+.generator-input {
+	display: flex;
+	margin: 2em 0 1em;
+	width: 340px;
+	background-color: #fff;
+	border: 1px solid #d4d2e6;
+	border-radius: 24px;
+}
+
+.password {
+	padding: 1em 0 1em 1em;
+	width: 100%;
+	color: #261c6a;
+	text-align: left;
+	letter-spacing: 0.1px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: text;
+}
+
+.badge {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 0.7em;
+	margin: auto 0 auto 0.4em;
+	height: 28px;
+	color: #fff;
+	background-color: #0070f6;
+	border-radius: 0.5em;
+	font-size: 1.4rem;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.btn {
+	display: flex;
+	margin: 0.6em 0.4em;
+	padding: 1.7em 1.5em;
+	width: 40px;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	background-image: url('../iconArrow.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 79%;
+	cursor: pointer;
+
+	&.active {
+		transition: transform 0.5s ease-out;
+		transform: rotate(-1turn);
+	}
+}
+
+@media (min-width: 600px) {
+	.generator-input {
+		width: 540px;
+	}
+}
